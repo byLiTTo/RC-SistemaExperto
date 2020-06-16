@@ -520,4 +520,16 @@ respuestas([], _).
 respuestas([Cabeza|Resto],Index) :-
     write(Index), write(' '), respuesta(Cabeza), nl,
     SiguienteIndex is Index + 1,
-    respuestas(Resto,SiguienteIndex).    
+    respuestas(Resto,SiguienteIndex).
+
+
+
+% =============================================================================
+% Analizamos los indices y devolvemos una respuesta
+% =============================================================================
+
+parse(0, [Cabeza|_], Cabeza]).
+parse(Index, [Cabeza|Resto], Solucion) :-
+    Index > 0,
+    SiguienteIndex is Index + 1,
+    parse(SiguienteIndex, Resto, Solucion). 
