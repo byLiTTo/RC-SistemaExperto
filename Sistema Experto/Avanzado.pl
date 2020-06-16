@@ -442,5 +442,71 @@ describe(php) :-
 describe(objectivec) :-
     write('Objetive-C'), nl,
     write('Lenguaje primario usado por Apple en MacOSX e iOS'), nl,
-    write('Escogelo si quieres enfocarte en el desarrollo para iOS y OSX').
+    write('Escógelo si quieres enfocarte en el desarrollo para iOS y OSX').
 
+
+
+% =============================================================================
+% Asociación de las respuestas con las preguntas de la base de conocimiento
+% =============================================================================
+
+porque(Respuesta) :-
+    progreso(porque,Respuesta).
+porque(Respuesta) :-
+    \+ progreso(porque,_),
+    ask(porque,Respuesta, [para_ninos,no_lo_se,hacer_dinero,solo_por_diversion,estoy_interesado,mejorar_yo_mismo]).
+
+que_plataforma(Respuesta) :-
+    progreso(que_plataforma,Respuesta).
+que_plataforma(Respuesta) :-
+    \+ progreso(que_plataforma,_),
+    ask(que_plataforma,Respuesta, [no_importa,gaming,movil,facebook,google,microsoft,apple,web,enterprise]).
+
+que_sistema_operativo_movil(Respuesta) :-
+    progreso(que_sistema_operativo_movil,Respuesta).
+que_sistema_operativo_movil(Respuesta) :-
+    \+ progreso(que_sistema_operativo_movil,_),
+    ask(que_sistema_operativo_movil,Respuesta, [ios,android]).
+
+web(Respuesta) :-
+    progreso(web,Respuesta).
+web(Respuesta) :-
+    \+ progreso(web,_),
+    ask(web,Respuesta, [front_end,back_end]).
+
+trabajar_para(Respuesta) :-
+    progreso(trabajar_para,Respuesta).
+trabajar_para(Respuesta) :-
+    \+ progreso(trabajar_para,_),
+    ask(trabajar_para,Respuesta, [startup,corporacion]).
+
+piensa_sobre_microsoft(Respuesta) :-
+    progreso(piensa_sobre_microsoft,Respuesta).
+piensa_sobre_microsoft(Respuesta) :-
+    \+ progreso(piensa_sobre_microsoft,_),
+    ask(piensa_sobre_microsoft,Respuesta, [soy_fan,no_esta_mal,es_una_mierda]).)
+
+intentar_algo_nuevo(Respuesta) :-
+    progreso(intentar_algo_nuevo,Respuesta).
+intentar_algo_nuevo(Respuesta) :-
+    \+ progreso(intentar_algo_nuevo,_),
+    ask(intentar_algo_nuevo,Respuesta, [si,no]).
+
+juguete_favorito(Respuesta) :-
+    progreso(juguete_favorito,Respuesta).
+juguete_favorito(Respuesta) :-
+    \+ progreso(juguete_favorito,_),
+    ask(juguete_favorito,Respuesta, [lego,play_doh,viejo]).
+
+prefiere_aprender(Respuesta) :-
+    progreso(prefiere_aprender,Respuesta).
+prefiere_aprender(Respuesta) :-
+    \+ progreso(prefiere_aprender,_),
+    ask(prefiere_aprender,Respuesta, [camino_facil,mejor_camino,camino_dificil,el_camino_mas_dificil]).
+
+coche(Respuesta) :-
+    progreso(coche,Respuesta).
+coche(Respuesta) :-
+    \+ progreso(coche,_),
+    ask(coche,Respuesta, [automatico,manual]).
+                                                                    
