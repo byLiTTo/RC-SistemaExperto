@@ -278,4 +278,18 @@ pregunta(prefiere_aprender) :-
     write('Yo prefiero aprender cosas ...'), nl.
 
 pregunta(coche) :-
-    write('¿Coche automático o manual?'), nl.                
+    write('¿Coche automático o manual?'), nl.
+
+
+
+% =============================================================================
+% Respuestas para la base de Conocimiento
+% =============================================================================
+
+respuesta(para_ninos) :-
+    write('Para los ninos').
+
+respuesta(no_lo_se) :-
+    write('No lo sé').
+    
+        
