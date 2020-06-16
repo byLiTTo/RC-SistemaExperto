@@ -392,4 +392,55 @@ respuesta(automatico) :-
     write('Automático').
 
 respuesta(manual) :-
-    write('Manual').                
+    write('Manual').
+
+
+
+% =============================================================================
+% Descripción del lenguaje para la base de conocimiento
+% =============================================================================
+
+describe(python) :-
+    write('Python'), nl,
+    write('Considerado por muchos como el mejor lenguaje de programación para principiantes'), nl,
+    write('Fácil de aprender').
+
+describe(java) :-
+    write('Java'), nl,
+    write('Uno de los más demandados y mejor pagados lenguajes de programación'), nl,
+    write('Eslogan: write once, work everywhere').
+
+describe(c) :-
+    write('Lingua franca de los lenguajes de programación'), nl,
+    write('Uno de los lenguajes más antiguos y frecuentes del mundo').
+
+describe(cpp) :-
+    write('C++'), nl,
+    write('Versión mejorada de C con un montón de características nuevas'), nl,
+    write('Recomendado si tienes un mentor que te guíe').
+
+describe(javascript) :- 
+    write('JavaScript'), nl,
+    write('El scripting language más popular para clientes web'), nl,
+    write('Uno de los que se debe aprender para le desarrollo de front-end, a parte de HTML y CSS').
+
+describe(csharp) :-
+    write('C#'), nl,
+    write('Una de las opciones más usadas por las empresas para crear páginas web y aplicaciones con .Net framework'), nl,
+    write('Similar a Java en la sintaxis básica y algunas características').
+
+describe(ruby) :-
+    write('Ruby'), nl,
+    write('Principalmente conocido por web framework, Ruby on Rails'), nl,
+    write('Se enfoca en tener hechas las cosas').
+
+describe(php) :-
+    write('PHP'), nl,
+    write('Adecuado para construir sitios pequeños y simples en muy poco tiempo'), nl,
+    write('Tiene soporte en casi todos los servicios de alojamiento web d bajo precio').
+
+describe(objectivec) :-
+    write('Objetive-C'), nl,
+    write('Lenguaje primario usado por Apple en MacOSX e iOS'), nl,
+    write('Escogelo si quieres enfocarte en el desarrollo para iOS y OSX').
+
