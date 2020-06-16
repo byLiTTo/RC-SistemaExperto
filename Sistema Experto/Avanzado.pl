@@ -532,4 +532,21 @@ parse(0, [Cabeza|_], Cabeza]).
 parse(Index, [Cabeza|Resto], Solucion) :-
     Index > 0,
     SiguienteIndex is Index + 1,
-    parse(SiguienteIndex, Resto, Solucion). 
+    parse(SiguienteIndex, Resto, Solucion).
+
+
+
+% =============================================================================
+% Hacer la pregunta al usuario y guardar la respuesta
+% =============================================================================
+
+ask(Pregunta, Respuesta, Opciones) :-
+    pregunta(Pregunta),
+    respuestas(Opciones, 0),
+    read(Index),
+    parse(Index, Opciones, Solucion),
+    asserta(progreso(Pregunta, Solucion)),
+    Solucion = Respuesta.
+
+
+    
