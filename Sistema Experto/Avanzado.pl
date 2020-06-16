@@ -509,4 +509,15 @@ coche(Respuesta) :-
 coche(Respuesta) :-
     \+ progreso(coche,_),
     ask(coche,Respuesta, [automatico,manual]).
-                                                                    
+
+
+
+% =============================================================================
+% Producción de una lista de respuesta en un formato correcto
+% =============================================================================
+
+respuestas([], _).
+respuestas([Cabeza|Resto],Index) :-
+    write(Index), write(' '), respuesta(Cabeza), nl,
+    SiguienteIndex is Index + 1,
+    respuestas(Resto,SiguienteIndex).    
