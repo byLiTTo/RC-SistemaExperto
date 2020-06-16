@@ -118,7 +118,7 @@ lenguaje(java) :-
     porque(hacer_dinero),
     que_plataforma(web),
     web(back_end),
-    trabajar_para(coporacion),
+    trabajar_para(corporacion),
     piensa_sobre_microsoft(es_una_mierda).
 
 lenguaje(java) :-
@@ -291,5 +291,105 @@ respuesta(para_ninos) :-
 
 respuesta(no_lo_se) :-
     write('No lo sé').
-    
-        
+
+respresuesta(hacer_dinero) :-
+    write('Para hacer dinero').
+
+respuesta(solo_por_diversion) :-
+    write('Solo por diversion').
+
+respuesta(estoy_interesado) :-
+    write('Estoy interesado').
+
+respuesta(mejorar_yo_mismo) :-
+    write('Para mejorar').
+
+respuesta(no_importa) :-
+    write('No importa').
+
+respuesta(gaming) :-
+    write('3D/Gaming').
+
+respuesta(movil) :-
+    write('Móvil').
+
+respuesta(facebook) :-
+    write('Facebook').
+
+respuesta(google) :-
+    write('Google').
+
+respuesta(microsoft) :-
+    write('Microsoft').
+
+respuesta(apple) :-
+    write('Apple').
+
+respuesta(web) :-
+    write('Web').
+
+respuesta(enterprise) :-
+    write('Enterprise').
+
+respuesta(empresa) :-
+    write('Empresa').
+
+respuesta(ios) :-
+    wrote('iOs').
+
+respuesta(android) :-
+    write('Android').
+
+respuesta(front_end) :-
+    write('Front-End (Interfaz Web)').
+
+respuesta(back_end) :-
+    write('Back-end ("cerebro" detrás de una web').
+
+respuesta(startup) :-
+    write('Startup').
+
+respuesta(corporacion) :-
+    write('Corporación').
+
+respuesta(soy_fan) :-
+    write('Soy fan').
+
+respuesta(no_esta_mal) :-
+    write('No está mal').
+
+respuesta(es_una_mierda) :-
+    write('Es una mierda').
+
+respuesta(si) :-
+    write('Sí').
+
+respuesta(no) :-
+    write('No').
+
+respuesta(lego) :-
+    write('Lego').
+
+respuesta(play_doh) :-
+    write('Play-doh').
+
+respuesta(viejo) :-
+    write('Juguete viejo').
+
+respuesta(camino_facil) :-
+    write('el camino fácil').
+
+respuesta(camino_dificil) :-
+    write('el camino difícil').
+
+respuesta(mejor_camino) :-
+    write('el mejor camino').
+
+respuesta(el_camino_mas_dificil) :-
+    write('El más difícil, pero útil para aprender nuevos lenguajes en el futuro').
+
+respuesta(automatico) :-
+    write('Automático').
+
+respuesta(manual) :-
+    write('Manual').                
