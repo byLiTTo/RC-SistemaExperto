@@ -246,4 +246,36 @@ lenguaje(ruby) :-
 
 
 
-% =============================================================================        
+% =============================================================================
+% Preguntas para la base de conocimiento
+% =============================================================================
+
+pregunta(porque) :-
+    write('¿Por qué quieres aprender a programar?'), nl.
+
+pregunta(que_plataforma) :-
+    write('¿Qué plataforma/campo?'), nl.
+
+pregunta(que_sistema_operativo_movil) :-
+    write('Qué sistama operativo?'), nl.
+
+pregunta(web) :-
+    write('¿En qué end, back o front?'), nl.
+
+pregunta(trabajar_para) :-
+    write('Quiero trabajar para ...'), nl.
+
+pregunta(piensa_sobre_microsoft) :-
+    write('¿Qué piensas sobre microsoft?'), nl.
+
+pregunta(intentar_algo_nuevo) :-
+    write('¿Quieres probar algo nuevo, con un gran potencial, pero con menos desarrollo?'), nl.
+
+pregunta(juguete_favorito) :-
+    write('¿Cuál es tu jueguete favorito?'), nl.
+
+pregunta(prefiere_aprender) :-
+    write('Yo prefiero aprender cosas ...'), nl.
+
+pregunta(coche) :-
+    write('¿Coche automático o manual?'), nl.                
