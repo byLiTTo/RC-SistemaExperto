@@ -335,7 +335,7 @@ respuesta(empresa) :-
     write('Empresa').
 
 respuesta(ios) :-
-    wrote('iOs').
+    write('iOs').
 
 respuesta(android) :-
     write('Android').
