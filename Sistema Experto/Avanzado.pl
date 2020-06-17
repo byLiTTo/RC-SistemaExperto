@@ -123,12 +123,10 @@ lenguaje(java) :-
 
 lenguaje(java) :-
     porque(hacer_dinero),
-    trabajar_para(empresa),
     piensa_sobre_microsoft(no_esta_mal).
 
 lenguaje(java) :-
     porque(hacer_dinero),
-    trabajar_para(empresa),
     piensa_sobre_microsoft(es_una_mierda).
 
 lenguaje(java) :-
@@ -210,7 +208,6 @@ lenguaje(csharp) :-
 
 lenguaje(csharp) :-
     porque(hacer_dinero),
-    que_plataforma(empresa),
     piensa_sobre_microsoft(soy_fan).
 
 % OBJECTIVEC ..................................................................    
@@ -327,9 +324,6 @@ respuesta(apple) :-
 
 respuesta(web) :-
     write('Web').
-
-respuesta(empresa) :-
-    write('Empresa').
 
 respuesta(ios) :-
     write('iOs').
@@ -457,7 +451,7 @@ que_plataforma(Respuesta) :-
     progress(que_plataforma,Respuesta).
 que_plataforma(Respuesta) :-
     \+ progress(que_plataforma,_),
-    ask(que_plataforma,Respuesta, [no_importa,gaming,movil,facebook,google,microsoft,apple,web,empresa]).
+    ask(que_plataforma,Respuesta, [no_importa,gaming,movil,facebook,google,microsoft,apple,web]).
 
 que_sistema_operativo_movil(Respuesta) :-
     progress(que_sistema_operativo_movil,Respuesta).
