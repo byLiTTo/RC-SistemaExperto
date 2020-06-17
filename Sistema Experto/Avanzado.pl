@@ -292,7 +292,7 @@ respuesta(para_ninos) :-
 respuesta(no_lo_se) :-
     write('No lo sé').
 
-respresuesta(hacer_dinero) :-
+respuesta(hacer_dinero) :-
     write('Para hacer dinero').
 
 respuesta(solo_por_diversion) :-
@@ -483,8 +483,8 @@ trabajar_para(Respuesta) :-
 piensa_sobre_microsoft(Respuesta) :-
     progreso(piensa_sobre_microsoft,Respuesta).
 piensa_sobre_microsoft(Respuesta) :-
-    \+ progreso(piensa_sobre_microsoft,_),
-    ask(piensa_sobre_microsoft,Respuesta, [soy_fan,no_esta_mal,es_una_mierda]).)
+    \+ progreso(piensa_sobre_microsoft, _),
+    ask(piensa_sobre_microsoft,Respuesta, [soy_fan,no_esta_mal,es_una_mierda]).
 
 intentar_algo_nuevo(Respuesta) :-
     progreso(intentar_algo_nuevo,Respuesta).
@@ -528,8 +528,9 @@ respuestas([Cabeza|Resto],Index) :-
 % Analizamos los indices y devolvemos una respuesta
 % =============================================================================
 
-parse(0, [Cabeza|_], Cabeza]).
-parse(Index, [Cabeza|Resto], Solucion) :-
+parse(0, [Cabeza | _], Cabeza).
+% parse(Index, [Cabeza|Resto], Solucion) :-
+parse(Index, [_|Resto], Solucion) :-
     Index > 0,
     SiguienteIndex is Index + 1,
     parse(SiguienteIndex, Resto, Solucion).
