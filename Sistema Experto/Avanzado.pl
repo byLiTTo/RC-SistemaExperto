@@ -532,7 +532,7 @@ parse(0, [Cabeza | _], Cabeza).
 % parse(Index, [Cabeza|Resto], Solucion) :-
 parse(Index, [_|Resto], Solucion) :-
     Index > 0,
-    SiguienteIndex is Index + 1,
+    SiguienteIndex is Index - 1,
     parse(SiguienteIndex, Resto, Solucion).
 
 
