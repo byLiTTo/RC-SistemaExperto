@@ -19,7 +19,7 @@ inicio :-
 
 
 introduccion :-
-    write('¿Que lenguaje de programacion deberia aprender primero?'), nl,
+    write('Que lenguaje de programacion deberia aprender primero?'), nl,
     write('Para responder, introduce el numero de la opcion, seguido de punto (.)'), nl, nl.
 
 
@@ -251,34 +251,34 @@ lenguaje(ruby) :-
 % =============================================================================
 
 pregunta(porque) :-
-    write('¿Por que quieres aprender a programar?'), nl.
+    write('Por que quieres aprender a programar?'), nl.
 
 pregunta(que_plataforma) :-
-    write('¿Que plataforma/campo?'), nl.
+    write('Que plataforma/campo?'), nl.
 
 pregunta(que_sistema_operativo_movil) :-
     write('Que sistama operativo?'), nl.
 
 pregunta(web) :-
-    write('¿En que end, back o front?'), nl.
+    write('En que end, back o front?'), nl.
 
 pregunta(trabajar_para) :-
     write('Quiero trabajar para ...'), nl.
 
 pregunta(piensa_sobre_microsoft) :-
-    write('¿Que piensas sobre microsoft?'), nl.
+    write('Que piensas sobre microsoft?'), nl.
 
 pregunta(intentar_algo_nuevo) :-
-    write('¿Quieres probar algo nuevo, con un gran potencial, pero con menos desarrollo?'), nl.
+    write('Quieres probar algo nuevo, con un gran potencial, pero con menos desarrollo?'), nl.
 
 pregunta(juguete_favorito) :-
-    write('¿Cual es tu jueguete favorito?'), nl.
+    write('Cual es tu jueguete favorito?'), nl.
 
 pregunta(prefiere_aprender) :-
     write('Yo prefiero aprender cosas ...'), nl.
 
 pregunta(coche) :-
-    write('¿Coche automatico o manual?'), nl.
+    write('Coche automatico o manual?'), nl.
 
 
 
@@ -407,7 +407,7 @@ describe(python) :-
 
 describe(java) :-
     write('Java'), nl,
-    write('Uno de los más demandados y mejor pagados lenguajes de programacion'), nl,
+    write('Uno de los mas demandados y mejor pagados lenguajes de programacion'), nl,
     write('Eslogan: write once, work everywhere').
 
 describe(c) :-
@@ -416,12 +416,12 @@ describe(c) :-
 
 describe(cpp) :-
     write('C++'), nl,
-    write('Versión mejorada de C con un montón de caracteristicas nuevas'), nl,
+    write('Version mejorada de C con un monton de caracteristicas nuevas'), nl,
     write('Recomendado si tienes un mentor que te guie').
 
 describe(javascript) :- 
     write('JavaScript'), nl,
-    write('El scripting language más popular para clientes web'), nl,
+    write('El scripting language mas popular para clientes web'), nl,
     write('Uno de los que se debe aprender para le desarrollo de front-end, a parte de HTML y CSS').
 
 describe(csharp) :-
