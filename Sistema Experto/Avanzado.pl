@@ -210,7 +210,7 @@ lenguaje(csharp) :-
 
 lenguaje(csharp) :-
     porque(hacer_dinero),
-    que_plataforma(enterprise),
+    que_plataforma(empresa),
     piensa_sobre_microsoft(soy_fan).
 
 % OBJECTIVEC ..................................................................    
@@ -327,9 +327,6 @@ respuesta(apple) :-
 
 respuesta(web) :-
     write('Web').
-
-respuesta(enterprise) :-
-    write('Enterprise').
 
 respuesta(empresa) :-
     write('Empresa').
@@ -460,7 +457,7 @@ que_plataforma(Respuesta) :-
     progress(que_plataforma,Respuesta).
 que_plataforma(Respuesta) :-
     \+ progress(que_plataforma,_),
-    ask(que_plataforma,Respuesta, [no_importa,gaming,movil,facebook,google,microsoft,apple,web,enterprise]).
+    ask(que_plataforma,Respuesta, [no_importa,gaming,movil,facebook,google,microsoft,apple,web,empresa]).
 
 que_sistema_operativo_movil(Respuesta) :-
     progress(que_sistema_operativo_movil,Respuesta).
