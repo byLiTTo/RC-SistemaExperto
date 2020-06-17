@@ -45,7 +45,7 @@ busca_lenguaje(Lenguaje) :-
 % reset_respuestas siempre debe devolver TRUE, porque retirar puede devolver
 % TRUE o FALSE, fallamos en el primero y tenemos éxito en el segundo
 reset_respuestas :-
-    retirar(progreso(_,_)),
+    retract(progreso(_,_)),
     fail.
 reset_respuestas.
 
