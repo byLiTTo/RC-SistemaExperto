@@ -14,7 +14,7 @@ inicio :-
     introduccion,
     reset_respuestas,
     busca_lenguaje(Lenguaje),
-    descripcion(Lenguaje), n1.
+    describe(Lenguaje), n1.
 
 
 
