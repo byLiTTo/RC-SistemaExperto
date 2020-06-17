@@ -106,7 +106,7 @@ lenguaje(python) :-
 % JAVA ........................................................................    
 
 lenguaje(java) :-
-    why(hacer_dinero),
+    porque(hacer_dinero),
     que_plataforma(no_importa).
 
 lenguaje(java) :-
