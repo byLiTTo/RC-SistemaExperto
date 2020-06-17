@@ -19,8 +19,8 @@ inicio :-
 
 
 introduccion :-
-    write('¿Qué lenguaje de programación debería aprender primero?'), nl,
-    write('Para responder, introduce el número de la opción, seguido de punto (.)'), nl, nl.
+    write('¿Que lenguaje de programacion deberia aprender primero?'), nl,
+    write('Para responder, introduce el numero de la opcion, seguido de punto (.)'), nl, nl.
 
 
 
@@ -251,34 +251,34 @@ lenguaje(ruby) :-
 % =============================================================================
 
 pregunta(porque) :-
-    write('¿Por qué quieres aprender a programar?'), nl.
+    write('¿Por que quieres aprender a programar?'), nl.
 
 pregunta(que_plataforma) :-
-    write('¿Qué plataforma/campo?'), nl.
+    write('¿Que plataforma/campo?'), nl.
 
 pregunta(que_sistema_operativo_movil) :-
-    write('Qué sistama operativo?'), nl.
+    write('Que sistama operativo?'), nl.
 
 pregunta(web) :-
-    write('¿En qué end, back o front?'), nl.
+    write('¿En que end, back o front?'), nl.
 
 pregunta(trabajar_para) :-
     write('Quiero trabajar para ...'), nl.
 
 pregunta(piensa_sobre_microsoft) :-
-    write('¿Qué piensas sobre microsoft?'), nl.
+    write('¿Que piensas sobre microsoft?'), nl.
 
 pregunta(intentar_algo_nuevo) :-
     write('¿Quieres probar algo nuevo, con un gran potencial, pero con menos desarrollo?'), nl.
 
 pregunta(juguete_favorito) :-
-    write('¿Cuál es tu jueguete favorito?'), nl.
+    write('¿Cual es tu jueguete favorito?'), nl.
 
 pregunta(prefiere_aprender) :-
     write('Yo prefiero aprender cosas ...'), nl.
 
 pregunta(coche) :-
-    write('¿Coche automático o manual?'), nl.
+    write('¿Coche automatico o manual?'), nl.
 
 
 
@@ -290,7 +290,7 @@ respuesta(para_ninos) :-
     write('Para los ninos').
 
 respuesta(no_lo_se) :-
-    write('No lo sé').
+    write('No lo se').
 
 respuesta(hacer_dinero) :-
     write('Para hacer dinero').
@@ -311,7 +311,7 @@ respuesta(gaming) :-
     write('3D/Gaming').
 
 respuesta(movil) :-
-    write('Móvil').
+    write('Movil').
 
 respuesta(facebook) :-
     write('Facebook').
@@ -344,25 +344,25 @@ respuesta(front_end) :-
     write('Front-End (Interfaz Web)').
 
 respuesta(back_end) :-
-    write('Back-end ("cerebro" detrás de una web').
+    write('Back-end ("cerebro" detras de una web').
 
 respuesta(startup) :-
     write('Startup').
 
 respuesta(corporacion) :-
-    write('Corporación').
+    write('Corporacion').
 
 respuesta(soy_fan) :-
     write('Soy fan').
 
 respuesta(no_esta_mal) :-
-    write('No está mal').
+    write('No esta mal').
 
 respuesta(es_una_mierda) :-
     write('Es una mierda').
 
 respuesta(si) :-
-    write('Sí').
+    write('Si').
 
 respuesta(no) :-
     write('No').
@@ -377,19 +377,19 @@ respuesta(viejo) :-
     write('Juguete viejo').
 
 respuesta(camino_facil) :-
-    write('el camino fácil').
+    write('el camino facil').
 
 respuesta(camino_dificil) :-
-    write('el camino difícil').
+    write('el camino dificil').
 
 respuesta(mejor_camino) :-
     write('el mejor camino').
 
 respuesta(el_camino_mas_dificil) :-
-    write('El más difícil, pero útil para aprender nuevos lenguajes en el futuro').
+    write('El mas difícil, pero util para aprender nuevos lenguajes en el futuro').
 
 respuesta(automatico) :-
-    write('Automático').
+    write('Automatico').
 
 respuesta(manual) :-
     write('Manual').
@@ -402,22 +402,22 @@ respuesta(manual) :-
 
 describe(python) :-
     write('Python'), nl,
-    write('Considerado por muchos como el mejor lenguaje de programación para principiantes'), nl,
-    write('Fácil de aprender').
+    write('Considerado por muchos como el mejor lenguaje de programacion para principiantes'), nl,
+    write('Facil de aprender').
 
 describe(java) :-
     write('Java'), nl,
-    write('Uno de los más demandados y mejor pagados lenguajes de programación'), nl,
+    write('Uno de los más demandados y mejor pagados lenguajes de programacion'), nl,
     write('Eslogan: write once, work everywhere').
 
 describe(c) :-
-    write('Lingua franca de los lenguajes de programación'), nl,
+    write('Lingua franca de los lenguajes de programacion'), nl,
     write('Uno de los lenguajes más antiguos y frecuentes del mundo').
 
 describe(cpp) :-
     write('C++'), nl,
-    write('Versión mejorada de C con un montón de características nuevas'), nl,
-    write('Recomendado si tienes un mentor que te guíe').
+    write('Versión mejorada de C con un montón de caracteristicas nuevas'), nl,
+    write('Recomendado si tienes un mentor que te guie').
 
 describe(javascript) :- 
     write('JavaScript'), nl,
@@ -426,8 +426,8 @@ describe(javascript) :-
 
 describe(csharp) :-
     write('C#'), nl,
-    write('Una de las opciones más usadas por las empresas para crear páginas web y aplicaciones con .Net framework'), nl,
-    write('Similar a Java en la sintaxis básica y algunas características').
+    write('Una de las opciones mas usadas por las empresas para crear paginas web y aplicaciones con .Net framework'), nl,
+    write('Similar a Java en la sintaxis basica y algunas caracteristicas').
 
 describe(ruby) :-
     write('Ruby'), nl,
@@ -442,7 +442,7 @@ describe(php) :-
 describe(objectivec) :-
     write('Objetive-C'), nl,
     write('Lenguaje primario usado por Apple en MacOSX e iOS'), nl,
-    write('Escógelo si quieres enfocarte en el desarrollo para iOS y OSX').
+    write('Escogelo si quieres enfocarte en el desarrollo para iOS y OSX').
 
 
 
