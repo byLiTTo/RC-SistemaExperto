@@ -123,10 +123,12 @@ lenguaje(java) :-
 
 lenguaje(java) :-
     porque(hacer_dinero),
+    que_plataforma(empresa),
     piensa_sobre_microsoft(no_esta_mal).
 
 lenguaje(java) :-
     porque(hacer_dinero),
+    que_plataforma(empresa),
     piensa_sobre_microsoft(es_una_mierda).
 
 lenguaje(java) :-
@@ -208,6 +210,7 @@ lenguaje(csharp) :-
 
 lenguaje(csharp) :-
     porque(hacer_dinero),
+    que_plataforma(empresa),
     piensa_sobre_microsoft(soy_fan).
 
 % OBJECTIVEC ..................................................................    
