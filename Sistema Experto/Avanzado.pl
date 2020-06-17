@@ -454,7 +454,7 @@ que_plataforma(Respuesta) :-
     progress(que_plataforma,Respuesta).
 que_plataforma(Respuesta) :-
     \+ progress(que_plataforma,_),
-    ask(que_plataforma,Respuesta, [no_importa,gaming,movil,facebook,google,microsoft,apple,web]).
+    ask(que_plataforma,Respuesta, [no_importa,gaming,movil,facebook,google,microsoft,apple,web,empresa]).
 
 que_sistema_operativo_movil(Respuesta) :-
     progress(que_sistema_operativo_movil,Respuesta).
