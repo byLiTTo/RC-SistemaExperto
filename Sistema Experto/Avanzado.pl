@@ -30,22 +30,22 @@ busca_lenguaje(Lenguaje) :-
 
 
 % =============================================================================
-% Almacenar las respuestas de los usuarios para poder seguir su progreso
+% Almacenar las respuestas de los usuarios para poder seguir su progress
 % =============================================================================
 
-:- dynamic(progreso/2).
+:- dynamic(progress/2).
 
 
 
 
 % =============================================================================
-% Limpiar el almacenamiento del progreso del usuario
+% Limpiar el almacenamiento del progress del usuario
 % =============================================================================
 
 % reset_respuestas siempre debe devolver TRUE, porque retirar puede devolver
 % TRUE o FALSE, fallamos en el primero y tenemos éxito en el segundo
 reset_respuestas :-
-    retract(progreso(_,_)),
+    retract(progress(_,_)),
     fail.
 reset_respuestas.
 
@@ -451,63 +451,63 @@ describe(objectivec) :-
 % =============================================================================
 
 porque(Respuesta) :-
-    progreso(porque,Respuesta).
+    progress(porque,Respuesta).
 porque(Respuesta) :-
-    \+ progreso(porque,_),
+    \+ progress(porque,_),
     ask(porque,Respuesta, [para_ninos,no_lo_se,hacer_dinero,solo_por_diversion,estoy_interesado,mejorar_yo_mismo]).
 
 que_plataforma(Respuesta) :-
-    progreso(que_plataforma,Respuesta).
+    progress(que_plataforma,Respuesta).
 que_plataforma(Respuesta) :-
-    \+ progreso(que_plataforma,_),
+    \+ progress(que_plataforma,_),
     ask(que_plataforma,Respuesta, [no_importa,gaming,movil,facebook,google,microsoft,apple,web,enterprise]).
 
 que_sistema_operativo_movil(Respuesta) :-
-    progreso(que_sistema_operativo_movil,Respuesta).
+    progress(que_sistema_operativo_movil,Respuesta).
 que_sistema_operativo_movil(Respuesta) :-
-    \+ progreso(que_sistema_operativo_movil,_),
+    \+ progress(que_sistema_operativo_movil,_),
     ask(que_sistema_operativo_movil,Respuesta, [ios,android]).
 
 web(Respuesta) :-
-    progreso(web,Respuesta).
+    progress(web,Respuesta).
 web(Respuesta) :-
-    \+ progreso(web,_),
+    \+ progress(web,_),
     ask(web,Respuesta, [front_end,back_end]).
 
 trabajar_para(Respuesta) :-
-    progreso(trabajar_para,Respuesta).
+    progress(trabajar_para,Respuesta).
 trabajar_para(Respuesta) :-
-    \+ progreso(trabajar_para,_),
+    \+ progress(trabajar_para,_),
     ask(trabajar_para,Respuesta, [startup,corporacion]).
 
 piensa_sobre_microsoft(Respuesta) :-
-    progreso(piensa_sobre_microsoft,Respuesta).
+    progress(piensa_sobre_microsoft,Respuesta).
 piensa_sobre_microsoft(Respuesta) :-
-    \+ progreso(piensa_sobre_microsoft, _),
+    \+ progress(piensa_sobre_microsoft, _),
     ask(piensa_sobre_microsoft,Respuesta, [soy_fan,no_esta_mal,es_una_mierda]).
 
 intentar_algo_nuevo(Respuesta) :-
-    progreso(intentar_algo_nuevo,Respuesta).
+    progress(intentar_algo_nuevo,Respuesta).
 intentar_algo_nuevo(Respuesta) :-
-    \+ progreso(intentar_algo_nuevo,_),
+    \+ progress(intentar_algo_nuevo,_),
     ask(intentar_algo_nuevo,Respuesta, [si,no]).
 
 juguete_favorito(Respuesta) :-
-    progreso(juguete_favorito,Respuesta).
+    progress(juguete_favorito,Respuesta).
 juguete_favorito(Respuesta) :-
-    \+ progreso(juguete_favorito,_),
+    \+ progress(juguete_favorito,_),
     ask(juguete_favorito,Respuesta, [lego,play_doh,viejo]).
 
 prefiere_aprender(Respuesta) :-
-    progreso(prefiere_aprender,Respuesta).
+    progress(prefiere_aprender,Respuesta).
 prefiere_aprender(Respuesta) :-
-    \+ progreso(prefiere_aprender,_),
+    \+ progress(prefiere_aprender,_),
     ask(prefiere_aprender,Respuesta, [camino_facil,mejor_camino,camino_dificil,el_camino_mas_dificil]).
 
 coche(Respuesta) :-
-    progreso(coche,Respuesta).
+    progress(coche,Respuesta).
 coche(Respuesta) :-
-    \+ progreso(coche,_),
+    \+ progress(coche,_),
     ask(coche,Respuesta, [automatico,manual]).
 
 
@@ -546,7 +546,7 @@ ask(Pregunta, Respuesta, Opciones) :-
     respuestas(Opciones, 0),
     read(Index),
     parse(Index, Opciones, Solucion),
-    asserta(progreso(Pregunta, Solucion)),
+    asserta(progress(Pregunta, Solucion)),
     Solucion = Respuesta.
 
 
