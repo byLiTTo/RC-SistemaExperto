@@ -328,6 +328,9 @@ respuesta(apple) :-
 respuesta(web) :-
     write('Web').
 
+respuesta(empresa) :-
+    write('Empresa').    
+
 respuesta(ios) :-
     write('iOs').
 
