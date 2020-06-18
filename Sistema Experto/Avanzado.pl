@@ -390,7 +390,7 @@ respuesta(mejor_camino) :-
     write('el mejor camino').
 
 respuesta(el_camino_mas_dificil) :-
-    write('El mas difícil, pero util para aprender nuevos lenguajes en el futuro').
+    write('El mas dificil, pero util para aprender nuevos lenguajes en el futuro').
 
 respuesta(automatico) :-
     write('Automatico').
@@ -415,8 +415,9 @@ describe(java) :-
     write('Eslogan: write once, work everywhere').
 
 describe(c) :-
+    write('C'), nl,
     write('Lingua franca de los lenguajes de programacion'), nl,
-    write('Uno de los lenguajes más antiguos y frecuentes del mundo').
+    write('Uno de los lenguajes mas antiguos y frecuentes del mundo').
 
 describe(cpp) :-
     write('C++'), nl,
