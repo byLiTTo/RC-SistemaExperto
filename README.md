@@ -1,9 +1,12 @@
+<img src="imagenes/LogoETSI.png" width="150"> <img src="imagenes/HuecoBlanco.png" width="170"> <img src="imagenes/LogoLiTTo.png" width="200"> <img src="imagenes/HuecoBlanco.png" width="170"> <img src="imagenes/LogoUHU.png" width="200">
+
 #   Trabajo Práctico de Representación del Conocimiento
     Universidad de Huelva
     Curso 2019-2020
     
    
 
-##  Idea inicial
-    Nuestra idea inicial es crear una skill de Alexa que sea capaz de manejar un sistema experto,
-    el cual estará implementado en Prolog.    
+##  Intención de la práctica
+    Con el desarrollo de esta práctica, pretendemos realizar un sistema experto implementado en el lenguaje declaratico PROLOG, una vez         creado el sistema y sea totalmente funcional, desarrollaremos una skill de Alexa, la cual hará de mediadora entre el usurio y nuestro       sistema. Alexa leerá las opciones del sistema y reconocerá la voz del usuario que dirá con su voz dirá la opción que desee, alexa           "dirá" internamente a prolog qué opción ha sido la seleccionada y la ejecutará para que nos devuelva otra salida.
+    
+    Como sistma experto nos vamos a basar en un Github que hemos encontrado, pese a que contenia errores, nos hemos dispuesto a                 corregirlos, incluso pretendemos traducirlo, ya que apenas hemos encontrado información en español, aunque sabemos que es importante el     uso de idimas, 
