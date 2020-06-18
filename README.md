@@ -17,3 +17,8 @@
     aunque sabemos que es importante el uso de idimas, queriamos que exista información en español, para que quien quiera 
     realizar una práctica similar, no tenga que dedicar tiempo en entender el idioma y pueda centrarse al completo en 
     el desarrollo.
+
+## Diseño del Sistema Experto en Prolog
+    
+
+<img src="imagenes/Arbol.png" width="900">
