@@ -4,6 +4,10 @@
     Universidad de Huelva
     Curso 2019-2020
     
+    Desarrolladores:
+    Carlos García Silva
+    David Campero Maña
+    
    
 
 ##  Intención de la práctica
