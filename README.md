@@ -34,7 +34,7 @@
     caminos que estábamos generando y también para facilitar la fase de testeo, en la que encontramos bastantes fallos
     que nos habíamos dejado por el camino. 
     
-    
+![](https://github.com/byLiTTo/SistemaExperto/blob/master/imagenes/Arbol.png)
     
     Incluso hay que mencionar que conseguimos corregir un fallo que venía en el
     repositorio en el que nos estábamos basando. Como queríamos aportar un pequeño toque de originalidad y diferencia,
