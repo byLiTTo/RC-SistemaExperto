@@ -119,6 +119,13 @@ lenguaje(java) :-
     que_plataforma(web),
     web(back_end),
     trabajar_para(corporacion),
+    piensa_sobre_microsoft(no_esta_mal).
+
+lenguaje(java) :-
+    porque(hacer_dinero),
+    que_plataforma(web),
+    web(back_end),
+    trabajar_para(corporacion),
     piensa_sobre_microsoft(es_una_mierda).
 
 lenguaje(java) :-
