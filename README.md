@@ -2,12 +2,7 @@
 
 #   Trabajo Práctico de Representación del Conocimiento
     Universidad de Huelva
-    Curso 2019-2020
-    
-    Desarrolladores:
-    Carlos García Silva
-    David Campero Maña
-    
+    Curso 2019-2020    
    
 
 ##  Intención de la práctica
