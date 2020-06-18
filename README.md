@@ -19,6 +19,7 @@
     el desarrollo.
 
 ## Diseño del Sistema Experto en Prolog
+
     Para la implementación del sistema experto, hicimos uso del lenguaje declarativo "Prolog", pese a que en la 
     asignatura nos enseñan a programar en este lenguaje, tuvimos que buscar información por otros medios, ya que
     los conocimientos que necesitamos iban un poco más allá del objetivo de la asignatura, teniamos entre manos
@@ -33,7 +34,7 @@
     caminos que estábamos generando y también para facilitar la fase de testeo, en la que encontramos bastantes fallos
     que nos habíamos dejado por el camino. 
     
-    <img src="imagenes/Arbol.png" width="900">
+    
     
     Incluso hay que mencionar que conseguimos corregir un fallo que venía en el
     repositorio en el que nos estábamos basando. Como queríamos aportar un pequeño toque de originalidad y diferencia,
