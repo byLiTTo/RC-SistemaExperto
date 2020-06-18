@@ -19,6 +19,23 @@
     el desarrollo.
 
 ## Diseño del Sistema Experto en Prolog
-    
+    Para la implementación del sistema experto, hicimos uso del lenguaje declarativo "Prolog", pese a que en la 
+    asignatura nos enseñan a programar en este lenguaje, tuvimos que buscar información por otros medios, ya que
+    los conocimientos que necesitamos iban un poco más allá del objetivo de la asignatura, teniamos entre manos
+    un proyecto en cierta medida ambicioso.
 
-<img src="imagenes/Arbol.png" width="900">
+    Nos hemos basado casi por completo en este repositorio: https://github.com/linkyndy/expert-systems
+    Es muy recomendable, ya que nos sirvió para aprender a como hacer un sistema experto en condiciones.
+    En la página: https://www.metalevel.at/prolog/expertsystems pudimos hacernos una idea de qué camino tomar,
+    por así decirlo existen 3 tipos de implementaciones y en función de lo que busquemos nos sirve más una u otra.
+    Realmente no nos decantamos por uno en concreto, si no que hicimos una especie de mezcla que una vez acabado, no
+    sabemos muy bien en qué categoría meter. Nos creamos una especie de árbol de decisión para tener más claro los
+    caminos que estábamos generando y también para facilitar la fase de testeo, en la que encontramos bastantes fallos
+    que nos habíamos dejado por el camino. 
+    
+    <img src="imagenes/Arbol.png" width="900">
+    
+    Incluso hay que mencionar que conseguimos corregir un fallo que venía en el
+    repositorio en el que nos estábamos basando. Como queríamos aportar un pequeño toque de originalidad y diferencia,
+    decidimos traducirlo al español, que siempre es más cómodo para quien esté buscando información y no quiera perder
+    tiempo con los pequeños atrasos que pueda hacer el trabajar con una lengua extranjera.
