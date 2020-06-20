@@ -40,6 +40,3 @@
     repositorio en el que nos estábamos basando. Como queríamos aportar un pequeño toque de originalidad y diferencia,
     decidimos traducirlo al español, que siempre es más cómodo para quien esté buscando información y no quiera perder
     tiempo con los pequeños atrasos que pueda hacer el trabajar con una lengua extranjera.
-
-
-holaaa
