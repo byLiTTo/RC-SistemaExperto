@@ -42,6 +42,6 @@ tiempo con los pequeños atrasos que pueda hacer el trabajar con una lengua extr
 
 ## Bibliografía
 [1. GitHub Sistema Experto](https://github.com/linkyndy/expert-systems)  
-[2. Metalevel Prolog](https://www.metalevel.at/prolog/expertsystems)
+[2. Metalevel Prolog](https://www.metalevel.at/prolog/expertsystems)  
 [3. Cómo crear tu primera Skill en Alexa](https://www.youtube.com/watch?v=LAN-BJs6zrw)  
 [4. Plating with Prolog](https://www.youtube.com/watch?v=ScrEe1vsPug&feature=emb_title)  
