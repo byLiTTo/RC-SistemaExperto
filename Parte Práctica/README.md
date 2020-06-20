@@ -1,7 +1,7 @@
 <img src="imagenes/LogoETSI.png" width="150"> <img src="imagenes/HuecoBlanco.png" width="200"> <img src="imagenes/LogoLiTTo.png" width="200"> <img src="imagenes/HuecoBlanco.png" width="140"> <img src="imagenes/LogoUHU.png" width="200">
 
 #   Trabajo Práctico de Representación del Conocimiento
-:school: Universidad de Huelva
+:school: Universidad de Huelva  
 :books: Curso 2019-2020    
    
 
