@@ -1,4 +1,4 @@
-<img src="imagenes/LogoETSI.png" width="150"> <img src="imagenes/HuecoBlanco.png" width="200"> <img src="imagenes/LogoLiTTo.png" width="200"> <img src="imagenes/HuecoBlanco.png" width="140"> <img src="imagenes/LogoUHU.png" width="200">
+<img src="imagenes/LogoETSI.png" width="150"> <img src="imagenes/HuecoBlanco.png" width="180"> <img src="imagenes/LogoLiTTo.png" width="200"> <img src="imagenes/HuecoBlanco.png" width="140"> <img src="imagenes/LogoUHU.png" width="200">
 
 #   Trabajo Práctico de Representación del Conocimiento
 :school: Universidad de Huelva  
