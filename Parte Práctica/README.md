@@ -45,3 +45,6 @@ tiempo con los pequeños atrasos que pueda hacer el trabajar con una lengua extr
 [2. Metalevel Prolog](https://www.metalevel.at/prolog/expertsystems)  
 [3. Cómo crear tu primera Skill en Alexa](https://www.youtube.com/watch?v=LAN-BJs6zrw)  
 [4. Playing with Prolog](https://www.youtube.com/watch?v=ScrEe1vsPug&feature=emb_title)  
+[5. GitHub Quiz](https://github.com/alexa/skill-sample-nodejs-quiz-game)  
+[6. Llamar a Prolog desde PHP y tener un sistema experto en la web](https://www.youtube.com/watch?v=3sUj523cfPE)  
+[7. GitHub Checkers Game Prolog y PHP](https://github.com/codermapuche/PHP-Prolog-HTML5-Checkers-Game)
