@@ -1,5 +1,5 @@
 # Sistema Experto en Prolog usando Alexa
-:computer: Proyecto Teórico y Práctico para la asignatura Representación del Conocimiento  
+:computer: Proyecto Teórico/Práctico para la asignatura Representación del Conocimiento  
 :school: Universidad de Huelva  
 :books: Curso 2019-2020  
 
