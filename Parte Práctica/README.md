@@ -47,4 +47,5 @@ tiempo con los pequeños atrasos que pueda hacer el trabajar con una lengua extr
 [4. Playing with Prolog](https://www.youtube.com/watch?v=ScrEe1vsPug&feature=emb_title)  
 [5. GitHub Quiz](https://github.com/alexa/skill-sample-nodejs-quiz-game)  
 [6. Llamar a Prolog desde PHP y tener un sistema experto en la web](https://www.youtube.com/watch?v=3sUj523cfPE)  
-[7. GitHub Checkers Game Prolog y PHP](https://github.com/codermapuche/PHP-Prolog-HTML5-Checkers-Game)
+[7. GitHub Checkers Game Prolog y PHP](https://github.com/codermapuche/PHP-Prolog-HTML5-Checkers-Game)  
+[8. Lista de reproducción cómo hacer una skill desde cero](https://www.youtube.com/watch?v=qv7ULb0TCN8&list=PL2KJmkHeYQTNzra-T2ayhV_84dHYCShAQ)
