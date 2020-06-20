@@ -41,5 +41,5 @@ decidimos traducirlo al español, que siempre es más cómodo para quien esté b
 tiempo con los pequeños atrasos que pueda hacer el trabajar con una lengua extranjera.
 
 ## Bibliografía
-[1. GitHub Sistema Experto](https://github.com/linkyndy/expert-systems)
+[1. GitHub Sistema Experto](https://github.com/linkyndy/expert-systems)  
 [2. Metalevel Prolog](https://www.metalevel.at/prolog/expertsystems)
