@@ -34,7 +34,7 @@ Lógica: ∀X.(guitarra(X) → ∃Y.(tiene(X,Y) ∧ cuerdas(Y)))
      Entonces existe un Y tal que
       (X tiene Y) y (Y son cuerdas)
 ```
-Como cualquier lenguaje, este se compone de una **Sintaxis** y una **Semántica**, la cual es necesaria para traducir cualquier datos a la lógica.
+Como cualquier lenguaje, este se compone de una **Sintaxis** y una **Semántica**, la cual es necesaria para traducir cualquier dato a la lógica.
 
 **Sintaxis**
 
