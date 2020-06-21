@@ -40,6 +40,27 @@ repositorio en el que nos estábamos basando. Como queríamos aportar un pequeñ
 decidimos traducirlo al español, que siempre es más cómodo para quien esté buscando información y no quiera perder
 tiempo con los pequeños atrasos que pueda hacer el trabajar con una lengua extranjera.
 
+## Implementación en Prolog
+Para quien no esté familiarizado con este lenguaje de programación declarativo, vamos a explicar los pasos que hemos
+seguido para realizar la implementación.
+
+Primero necesitamos descargar su entorno, SWI-Prolog(10). Tiene una interfaz muy sencilla, donde podemos consultar
+nuestro código, editarlo en el propio entorno, etc. Nosotros usamos un editor de código externo, ya que el que trae swi
+deja que desear, usamos Visual Studio Code vinculado con este repositorio, lo cual recomendamos hacer, ya que es una
+herramienta muy cómoda y muy bien integrada en el editor.
+
+En cuanto a la programación, la forma de plantear los problemas es diferente a la de un lenguaje imperativo, como puede
+ser Java, C++, etc. En este lenguaje no manejamos métodos, los llamamos predicados, para entender su funcionamiento
+podemos basarnos en la lógica proposicional 
+
+```
+inicio :-
+    introduccion,
+    reset_respuestas,
+    busca_lenguaje(Lenguaje),
+    describe(Lenguaje), nl.
+```
+
 ## Bibliografía
 [1. GitHub Sistema Experto](https://github.com/linkyndy/expert-systems)  
 [2. Metalevel Prolog](https://www.metalevel.at/prolog/expertsystems)  
@@ -49,4 +70,5 @@ tiempo con los pequeños atrasos que pueda hacer el trabajar con una lengua extr
 [6. Llamar a Prolog desde PHP y tener un sistema experto en la web](https://www.youtube.com/watch?v=3sUj523cfPE)  
 [7. GitHub Checkers Game Prolog y PHP](https://github.com/codermapuche/PHP-Prolog-HTML5-Checkers-Game)  
 [8. Lista de reproducción cómo hacer una skill desde cero](https://www.youtube.com/watch?v=qv7ULb0TCN8&list=PL2KJmkHeYQTNzra-T2ayhV_84dHYCShAQ)  
-[9. Prolog web FrameWork](https://www.youtube.com/watch?v=0fyE8Fuj3sg&list=PLo2Yjnxu38Q8VI6WVFLlTQOZ9LH9M4wyk)
+[9. Prolog web FrameWork](https://www.youtube.com/watch?v=0fyE8Fuj3sg&list=PLo2Yjnxu38Q8VI6WVFLlTQOZ9LH9M4wyk)  
+[10. Swi-Prolog](https://www.swi-prolog.org/)
