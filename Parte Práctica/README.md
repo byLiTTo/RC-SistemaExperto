@@ -90,7 +90,52 @@ descripción del lenguaje. Lo podemos ver más claro en la siguiente captura del
 <img src="imagenes/Ejecucion.jpg" width="500">
    
 ## Diseño en Alexa
+La siguiente fase en nuestro proyecto era integrar todo lo realizado hasta ahora en Alexa, lo cual nos trajo muchos quebraderos
+de cabeza. En cuanto a cómo integrar una API de prolog en Alexa, a penas existe información, por lo decir que no la hay.
+Encontramos una especie de tutorial donde un hombre realizada skill de Alexa la cual guardaba los facts que el hombre le decía
+y Alexa era capaz de memorizarlos, más tarde se le decía una relación entre estos facts y Alexa traducia todo a lenguaje Prolog,
+a partir de un parser de JSON a Prolog, y las relaciones funcionaban en prolog, el resultado era procesado y parseado a JSON y
+devuelto a Alexa con éxito.
 
+Tras todo este embrollo, el resultado era una skill que entedía el lenguaje natural y era capaz de relacionar hechos y reglas,
+con back-end implementado en JSON y parseado a Prolog. En cierta medida era lo que buscabamos, pero nos quedamos a las puertas
+de implementar este back-end.
+
+Uno de nuestro principales problemas era que necesitabamos crear un dominio propio, el cual Aleza usara como endpoint y al cual
+pudiera conectarse para hacer el intercamio de datos. Creamos uno en la página noip.com(11), y abrir un puerto por el cual poder
+establecer la conexión, lo cual no parecía difícil, pero desconocemos la causa por la que esto no funcionaba. Así que llegamos a un
+punto muerto en el desarrollo del proyecto.
+
+Decidimos informarnos de cómo funciona la web donde se desarrolla una skill de Alexa y que lenguajes deberíamos de dominar, por
+suerte para algunos, la web ha sufrido varias actualizaciones y actualmente se ha intregrado en una sola web tonta el front-end,
+como el back-end. En principio el front-end funciona en JSON, pero la web nos facilita una forma gráfica de añadir slots e intents,
+por lo que no era necesario que dominasemos el lenguaje. En cuanto al front-end, existen 3 formas de realizarlo, a partir de un Node.js,
+con Python y por último custom y desde cero. El tutorial que mencionamos antes(4) lo realizaba con este último método, pero la parte
+de conexión con Alexa también corria por parte del propio desarrollardor, así que investigamos si podría existir la forma de realizarlo
+con Node.js y parser Prolog a JavaScript. Encontramos una lista de unos tutoriales muy recomendables para entender el funcionamiento de
+esto(8) además de una masterclass del mismo autor(3).
+
+Llegamos a la misma conclusión, ¿Cómo podemos hacer una conexión desde nuestra API de Prolog en nuestro dispositivo, hasta Alexa?
+por desgracia no encontramos una respuesta, así que pensamos una alternativa en HTML y encontramos otra lista de reproducción, donde
+se podía ver el proceso para realizar esto(9). Pero nos ocurrió el mismo problema, no conocemos una forma de crear un dominio y hacerlo
+funcionar. 
+
+Buscamos otra alternativa, PHP, donde encontramos un video un tipo muy simpático, que explicaba como realizar un juego de ajedrez, solo
+con peones, implementado en prolog, pero manejado desde una web escrita en PHP, un video bastante ilustrativo y con un enlace a su
+repositorio. Pero nos sirgía el mismo problema de siempre, algo haciamos mal a la hora de crear el dominio.
+
+En un último intento, decidimos traducir el sistema experto de Prolog a JS o Python, para usar los métodos que hacen uso del dominio
+de la propia Amazon, que nos cede un espacio de 5Gb en su nube para el desarrollo de cualquier skill, como aún no teniamos conocimientos
+en estos lenguajes, buscamos ejemplos de alguna skill ya creada que fuese similar y encontramos un juego de Quiz, que en cierta forma
+se asemejaba a lo que buscabamos, pero justament en lo que se diferenciaba era en la esencia del sistema experto, esta skill eran preguntas totalmente aleatorias. Llegamos a un punto en el que decidimos que lo que ibamos a hacer iba mucho más allá de los requisitos
+que se pedían en este proyecto.
+
+Ya que cumpliamos con los requisitos necesarios para superar el proyecto, dejamos aparcada la idea de dar un paso más y llevarlo hasta Alexa, por la elevada saturación de carga de trabajo que estamos sufriendo en este 2020.
+
+No sabemos si retomaremos este proyecto, pero hemos querido compartir nuestro desarrollo y experiencia y dejar en la comunidad un camino por el cual quien quisiera realizar algo similar pudiera tomar como referencia. Hemos dejado constancia de repositorios, videos y webs donde poder informarse.
+
+## Implementación Alexa
+¿Algún día...?
 
 ## Bibliografía
 [1. GitHub Sistema Experto](https://github.com/linkyndy/expert-systems)  
@@ -102,4 +147,5 @@ descripción del lenguaje. Lo podemos ver más claro en la siguiente captura del
 [7. GitHub Checkers Game Prolog y PHP](https://github.com/codermapuche/PHP-Prolog-HTML5-Checkers-Game)  
 [8. Lista de reproducción cómo hacer una skill desde cero](https://www.youtube.com/watch?v=qv7ULb0TCN8&list=PL2KJmkHeYQTNzra-T2ayhV_84dHYCShAQ)  
 [9. Prolog web FrameWork](https://www.youtube.com/watch?v=0fyE8Fuj3sg&list=PLo2Yjnxu38Q8VI6WVFLlTQOZ9LH9M4wyk)  
-[10. Swi-Prolog](https://www.swi-prolog.org/)
+[10. Swi-Prolog](https://www.swi-prolog.org/)  
+[11. NoIp.com](https://www.noip.com/)
