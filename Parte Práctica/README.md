@@ -112,7 +112,11 @@ como el back-end. En principio el front-end funciona en JSON, pero la web nos fa
 por lo que no era necesario que dominasemos el lenguaje. En cuanto al front-end, existen 3 formas de realizarlo, a partir de un Node.js,
 con Python y por último custom y desde cero. El tutorial que mencionamos antes(4) lo realizaba con este último método, pero la parte
 de conexión con Alexa también corria por parte del propio desarrollardor, así que investigamos si podría existir la forma de realizarlo
-con Node.js y parser Prolog a JavaScript. Encontramos una lista de unos tutoriales muy recomendables para entender el funcionamiento de
+con Node.js y parser Prolog a JavaScript. 
+<p align="center">
+<img src="imagenes/CreacionSkill.jpg" width="800">
+
+Encontramos una lista de unos tutoriales muy recomendables para entender el funcionamiento de
 esto(8) además de una masterclass del mismo autor(3).
 
 Llegamos a la misma conclusión, ¿Cómo podemos hacer una conexión desde nuestra API de Prolog en nuestro dispositivo, hasta Alexa?
