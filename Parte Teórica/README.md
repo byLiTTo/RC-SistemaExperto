@@ -3,7 +3,7 @@
 :books: Curso 2019-2020
     
 ##  Introducción
-En este documento, se pretende especificar y detallar diferentes técnicas más usadas en la Representación del Conocimiento aplicadas a la Inteligencia Artificial. Estas técnicas son esenciales para poder tranformar la información del mundo que nos rodea, convirtiendola en una estructura específica para que esta, pueda resolver problemas. Podemos encontrar numerosas técnicas, pero en el presente documento detallaremos cuatro.
+En este documento, se pretende especificar y detallar diferentes técnicas más usadas en la Representación del Conocimiento aplicadas a la Inteligencia Artificial. Estas técnicas son esenciales para poder transformar la información del mundo que nos rodea, convirtiéndola en una estructura específica para que esta, pueda resolver problemas. Podemos encontrar numerosas técnicas, pero en el presente documento detallaremos cuatro.
 
 ##  ¿Qué es exactamente la Representación del Conocimiento?
 La Representación del Conocimiento, en el campo de la IA, es la responsable de describir la representación del conocimiento. Básicamente, es un estudio de cómo las creencias, intenciones y juicios de un agente inteligente pueden expresarse adecuadamente para un razonamiento automatizado. Uno de los propósitos primarios de la representación del conocimiento incluye el modelado del comportamiento inteligente de un agente. Ese comportamiento inteligente, se modela por los diferentes tipos de conocimientos que se representan en IA, los cuales son:
@@ -17,10 +17,10 @@ La Representación del Conocimiento, en el campo de la IA, es la responsable de 
 
 Teniendo todo esto en cuenta, se procede a especificar y explicar las técnicas más utilizadas de este campo.
 
-## Técnicias de la Representación del Conocimiento
+## Técnicas de la Representación del Conocimiento
 
 ## 1. Representación Lógica
-La representación lógica del conocimiento vienen siendo un lenguaje con representación inequívoca guiada por condiciones y reglas que previamente hemos establecido. La representación lógica significa sacar una conclusión basada en varias condiciones.  
+La representación lógica del conocimiento viene siendo un lenguaje con representación inequívoca guiada por condiciones y reglas que previamente hemos establecido. La representación lógica significa sacar una conclusión basada en varias condiciones.  
 
 Una implementación de esta lógica entre el Lenguaje Natural y el Lenguaje de Representación Lógica podría ser una como la siguiente:
 
@@ -34,17 +34,17 @@ Lógica: ∀X.(guitarra(X) → ∃Y.(tiene(X,Y) ∧ cuerdas(Y)))
      Entonces existe un Y tal que
       (X tiene Y) y (Y son cuerdas)
 ```
-Como cualquier lenguaje, este se compone de una **Sintaxis** y una **Semántica**, la cual es necesaria para traducir cualquier datos a la lógica.
+Como cualquier lenguaje, este se compone de una **Sintaxis** y una **Semántica**, la cual es necesaria para traducir cualquier dato a la lógica.
 
 **Sintaxis**
 
 - Conjunto de reglas que determinan como construid sentencias lógicas.
-- Determina qué simbolo podemos usar en la representación final de la lógica.
+- Determina qué símbolo podemos usar en la representación final de la lógica.
 - Formas de representar esos símbolos.
 
 **Semántica**
 
-- Conjunto de reglas que determinan el como interpreta el lenguaje las sentencias lógicas.
+- Conjunto de reglas que determinan el cómo interpreta el lenguaje las sentencias lógicas.
 - Proporciona un significado a cada sentencia para que tengan sentido.
 
 **Ventajas**
@@ -54,7 +54,7 @@ Como cualquier lenguaje, este se compone de una **Sintaxis** y una **Semántica*
 
 **Desventajas**
 
-- Estas representaciones, tienen algunas restricciones y es complucado trabajar con ellas.
+- Estas representaciones, tienen algunas restricciones y es complicado trabajar con ellas.
 - Todo esto, puedo no ser muy natural y la deducción podría no ser muy eficiente.
 
 ## 2. Representación de Redes Semánticas
@@ -91,7 +91,7 @@ Esta representación consta de tres tipos de relaciones:
 Un marco, es una estructura de datos que contiene una colección de atributos y valores que describe una entidad del mundo real.
 Estos contienen una colección de atributos y valores para describir una entidad del mundo real.
 
-Los marcos ofrecen una representación concisa y estrucurada del conocimiento de forma natural. Permiten usar el poder de los objetos incluyendo a otros procesos y mecanismos.
+Los marcos ofrecen una representación concisa y estructurada del conocimiento de forma natural. Permiten usar el poder de los objetos incluyendo a otros procesos y mecanismos.
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/davidcamperom/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/imagenes/Image_3.png">
@@ -114,7 +114,7 @@ Los marcos ofrecen una representación concisa y estrucurada del conocimiento de
 
 ## 4. Reglas de Producción
 
-El agente comprueba la condición, y si la condinción es válida, la acción de esa regla realiza los pasos para la resolución del problema. El proceso que realiza este agente se llama, ciclo de reconocimiento-toma de decisión.
+El agente comprueba la condición, y si la condición es válida, la acción de esa regla realiza los pasos para la resolución del problema. El proceso que realiza este agente se llama, ciclo de reconocimiento-toma de decisión.
 
 Aquí un ejemplo:
 ```
