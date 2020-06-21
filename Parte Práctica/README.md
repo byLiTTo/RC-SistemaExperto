@@ -148,4 +148,5 @@ No sabemos si retomaremos este proyecto, pero hemos querido compartir nuestro de
 [8. Lista de reproducción cómo hacer una skill desde cero](https://www.youtube.com/watch?v=qv7ULb0TCN8&list=PL2KJmkHeYQTNzra-T2ayhV_84dHYCShAQ)  
 [9. Prolog web FrameWork](https://www.youtube.com/watch?v=0fyE8Fuj3sg&list=PLo2Yjnxu38Q8VI6WVFLlTQOZ9LH9M4wyk)  
 [10. Swi-Prolog](https://www.swi-prolog.org/)  
-[11. NoIp.com](https://www.noip.com/)
+[11. NoIp.com](https://www.noip.com/)  
+[12. Amazon Developers](https://developer.amazon.com/es/)
