@@ -147,8 +147,8 @@ Aquí un ejemplo de una implementación de Redes Bayesianas:
 
 ```
 En este problema, los nodos representan enfermedades, síntomas y factores que causan algunas enfermedades.
-La variable a la que apunta un arco es dependiente de la que está en el origen de éste, por ejemplo fiebre depende  
-de tifoidea y gripe en la red. La topología o estructura de la red nos da información sobre las
+La variable a la que apunta un arco es dependiente de la que está en el origen de éste, por ejemplo fiebre  
+depende de tifoidea y gripe en la red. La topología o estructura de la red nos da información sobre las
 dependencias probabilísticas entre las variables. La red también representa las
 independencias condicionales de una variable (o conjunto de variables) dada(s)
 otra(s) variable(s).
