@@ -51,8 +51,20 @@ herramienta muy cómoda y muy bien integrada en el editor.
 
 En cuanto a la programación, la forma de plantear los problemas es diferente a la de un lenguaje imperativo, como puede
 ser Java, C++, etc. En este lenguaje no manejamos métodos, los llamamos predicados, para entender su funcionamiento
-podemos basarnos en la lógica proposicional 
+podemos basarnos en la lógica proposicional, en la siguiente imagen vemos un ejemplo de ello:
 
+<p align="center">
+<img src="imagenes/LogicaProposicional.jpg" width="300">
+   
+Donde vemos una serie de hechos relacionados con una serie de reglas y a partir de las distintas relaciones entre ellos
+podemos obtener conclusiones a nuestro problema. Prolog se basa en esta forma de "pensamiento", introducimos hechos o
+predicados y mediante una serie de relaciones nos dice si son verdaderas o falsas. Como estamos comprobando precisamente
+si dos o varios hechos tienen relacion, no decimos que ejecutamos nuestro script, decimos que lo consultamos, por ello
+el último paso que realizaremos será clickar en la opción "Consult" de Swi-Prolog.
+
+#### Predicados usados en el código
+Inicialmente mostraremos por pantalla el mensaje con la pregunta inicial y una pequeña instrucción de como manejar el
+sistema experto.
 ```
 inicio :-
     introduccion,
@@ -60,6 +72,23 @@ inicio :-
     busca_lenguaje(Lenguaje),
     describe(Lenguaje), nl.
 ```
+El sistema irá mostrando las distintas opciones y un indice que hemos calculado para que el usuario solo escriba dicho número
+y el sistema internamente lo gestione. En cada "turno" se le hará una pregunta y se buscará el lenguaje que cumpla las condiciones,
+estas condiciones sabremos si se cumplen ya que vamos guardando las respuestas del usurio, el cierta forma es como ir descartando
+ramas del árbol que veiamos más arriba.
+```
+ask(Pregunta, Respuesta, Opciones) :-
+    pregunta(Pregunta),
+    respuestas(Opciones, 0),
+    read(Index),
+    parse(Index, Opciones, Solucion),
+    asserta(progress(Pregunta, Solucion)),
+    Solucion = Respuesta.
+```
+Cuando el sistema encuentra un código que cumpla todas las condiciones, lo muestra como solución y escribe en pantalla una
+descripción del lenguaje.
+
+
 
 ## Bibliografía
 [1. GitHub Sistema Experto](https://github.com/linkyndy/expert-systems)  
