@@ -21,7 +21,7 @@ Además de esto, podemos encontrar tres tipos de clasificación del Conocimiento
 Este conocimiento se basa en objetos o situaciones, poseen una mayor capacidad expresiva, que a su vez produce una menor capacidad computacional. Es conocimiento pasivo expresado mediante sentencias acerca de los hechos del mundo que nos rodea.
 
 - Conocimiento procedimental  
-Se basa en el saber de como realizar una acción por reglas gramaticales, implementadas por sistemas o lenguajes procedimentales y sistemas basados en reglas.
+Se basa en el saber de cómo realizar una acción por reglas gramaticales, implementadas por sistemas o lenguajes procedimentales y sistemas basados en reglas.
 
 - Conocimiento Heurístico  
 Conocimiento que es usado por los Seres Humanos para resolver problemas complejos. Se usa este conocimiento para simplificar la solución de un problema.
@@ -141,13 +141,13 @@ El sistema de reglas consta de tres partes principales:
 | Las reglas son altamente modificables, pueden ser fácilmente modificadas o eliminadas.  | Durante la ejecución del programa, pueden ejecutarse demasiadas reglas en un momento determinad. Esto resulta muy ineficiente.  |
 
 ## 5. Redes Bayesianas
-Las redes bayesianas son una representación gráfica de dependencias para razonamiento probabilstico, en la cual los nodos representan variables aleatorias y los arcos representan relaciones de dependencia directa entre las variables.
+Las redes bayesianas son una representación gráfica de dependencias para razonamiento probabilístico, en la cual los nodos representan variables aleatorias y los arcos representan relaciones de dependencia directa entre las variables.
 
 Aquí un ejemplo de una implementación de Redes Bayesianas:  
 
 ```
 En este problema, los nodos representan enfermedades, síntomas y factores que causan algunas enfermedades.
-La variable a la que apunta un arco es dependiente de la que está en el origen de éste, por ejemplo fiebre  
+La variable a la que apunta un arco es dependiente de la que está en el origen de éste, por ejemplo, fiebre  
 depende de tifoidea y gripe en la red. La topología o estructura de la red nos da información sobre las
 dependencias probabilísticas entre las variables. La red también representa las
 independencias condicionales de una variable (o conjunto de variables) dada(s)
