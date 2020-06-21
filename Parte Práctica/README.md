@@ -19,7 +19,6 @@ realizar una práctica similar, no tenga que dedicar tiempo en entender el idiom
 el desarrollo.
 
 ## Diseño del Sistema Experto en Prolog
-
 Para la implementación del sistema experto, hicimos uso del lenguaje declarativo "Prolog", pese a que en la 
 asignatura nos enseñan a programar en este lenguaje, tuvimos que buscar información por otros medios, ya que
 los conocimientos que necesitamos iban un poco más allá del objetivo de la asignatura, teniamos entre manos
@@ -89,6 +88,9 @@ Cuando el sistema encuentra un código que cumpla todas las condiciones, lo mues
 descripción del lenguaje. Lo podemos ver más claro en la siguiente captura del programa:
 <p align="center">
 <img src="imagenes/Ejecucion.jpg" width="500">
+   
+## Diseño en Alexa
+
 
 ## Bibliografía
 [1. GitHub Sistema Experto](https://github.com/linkyndy/expert-systems)  
