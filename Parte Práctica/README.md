@@ -86,9 +86,9 @@ ask(Pregunta, Respuesta, Opciones) :-
     Solucion = Respuesta.
 ```
 Cuando el sistema encuentra un código que cumpla todas las condiciones, lo muestra como solución y escribe en pantalla una
-descripción del lenguaje.
-
-
+descripción del lenguaje. Lo podemos ver más claro en la siguiente captura del programa:
+<p align="center">
+<img src="imagenes/Ejecucion.jpg" width="500">
 
 ## Bibliografía
 [1. GitHub Sistema Experto](https://github.com/linkyndy/expert-systems)  
