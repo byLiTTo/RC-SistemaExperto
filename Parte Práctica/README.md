@@ -105,6 +105,8 @@ Uno de nuestro principales problemas era que necesitabamos crear un dominio prop
 pudiera conectarse para hacer el intercamio de datos. Creamos uno en la página noip.com(11), y abrir un puerto por el cual poder
 establecer la conexión, lo cual no parecía difícil, pero desconocemos la causa por la que esto no funcionaba. Así que llegamos a un
 punto muerto en el desarrollo del proyecto.
+<p align="center">
+<img src="imagenes/FalloSkill.jpg" width="1000">
 
 Decidimos informarnos de cómo funciona la web donde se desarrolla una skill de Alexa y que lenguajes deberíamos de dominar, por
 suerte para algunos, la web ha sufrido varias actualizaciones y actualmente se ha intregrado en una sola web tonta el front-end,
