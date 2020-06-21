@@ -183,5 +183,5 @@ Calculando la probabilidad de cada uno de ellos, podemos obtener una solución p
 [6. Classifying Knowledge Representation In Artificial Intelligence](https://www.fingent.com/blog/classifying-knowledge-representation-in-artificial-intelligence/)  
 [7. Marcos (Frames)](https://freedoomforlife.wordpress.com/marcos-frames/)  
 [8. Frame(artificial intelligence)](https://en.wikipedia.org/wiki/Frame_(artificial_intelligence))  
-[9. Redes Bayesianas(Luis Enrique Sucar)](https://ccc.inaoep.mx/~esucar/Clases-mgp/caprb.pdf)  
+[9. Redes Bayesianas (Luis Enrique Sucar)](https://ccc.inaoep.mx/~esucar/Clases-mgp/caprb.pdf)  
 [10. Red Bayesiana (Wikipedia)](https://es.wikipedia.org/wiki/Red_bayesiana)
