@@ -1,3 +1,5 @@
+<img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/images/LogoETSI.png" width="150"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/HuecoBlanco.png" width="90"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/images/LogoDavid.png" width="200"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/HuecoBlanco.png" width="15"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/LogoLiTTo.png" width="140"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/HuecoBlanco.png" width="90"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/LogoUHU.png" width="200">
+
 #   Trabajo Teórico de Representación del Conocimiento
 :school: Universidad de Huelva  
 :books: Curso 2019-2020
@@ -82,7 +84,7 @@ Como cualquier lenguaje, este se compone de una **Sintaxis** y una **Semántica*
 Las Redes Semánticas son una forma de representar el conocimiento de un agente, en forma de grafo. Estos se componen de nodos los cuales tienen un objeto, y unas conexiones que se interconectan para representar una característica de ese objeto. Si no se presenta ningún ciclo, sería un árbol.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/davidcamperom/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/imagenes/Image_1.png">
+  <img width="460" height="300" src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/images/Image_1.png">
 </p>
 
 Esta representación consta de tres tipos de relaciones:
@@ -91,7 +93,7 @@ Esta representación consta de tres tipos de relaciones:
 - Relación HAS (tiene): representa una propiedad que tiene un nodo con otro.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/davidcamperom/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/imagenes/Image_2.png">
+  <img width="460" height="300" src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/images/Image_2.png">
 </p>
 
 | Ventajas | Desventajas |
@@ -107,7 +109,7 @@ Estos contienen una colección de atributos y valores para describir una entidad
 Los marcos ofrecen una representación concisa y estructurada del conocimiento de forma natural. Permiten usar el poder de los objetos incluyendo a otros procesos y mecanismos.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/davidcamperom/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/imagenes/Image_3.png">
+  <img width="460" height="300" src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/images/Image_3.png">
 </p>
 
 ***Un conjunto de muchos frames, componen la representación total del conocimiento de ese agente inteligente, permitiendo representar el mundo del mismo.***
