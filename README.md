@@ -1,4 +1,4 @@
-<img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/images/LogoETSI.png" width="150"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/HuecoBlanco.png" width="250"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/HuecoBlanco.png" width="250"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/LogoUHU.png" width="200">
+<img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Te%C3%B3rica/images/LogoETSI.png" width="150"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/HuecoBlanco.png" width="200"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/HuecoBlanco.png" width="200"> <img src="https://github.com/byLiTTo/SistemaExperto/blob/master/Parte%20Pr%C3%A1ctica/imagenes/LogoUHU.png" width="200">
 
 # Sistema Experto en Prolog usando Alexa
 :computer: Proyecto Teórico/Práctico para la asignatura Representación del Conocimiento  
